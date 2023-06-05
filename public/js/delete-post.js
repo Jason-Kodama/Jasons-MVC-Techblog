@@ -11,7 +11,6 @@ async function deleteFormHandler(event) {
 
   if (response.ok) {
     document.location.replace('/dashboard');
-    // otherwise, display the error
   } else {
     alert(response.statusText);
   }
